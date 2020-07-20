@@ -1,19 +1,31 @@
+body,
+html {
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+}
+
 #particles-js {
-    background: #000000;
+    background: #49afb3;
     position: absolute;
     height:100%;
     width: 100%;
     z-index: -1;
+    top: 0;
+    left: 0
 
 
 }
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
     font-family: 'Karla', 'Helvetic Neue', 'Helvetica', sans-serif;
     font-weight: 400;
-    color: #FFFFFF;
-    background: #000000;
+    color: #ffffff;
+    overflow: hidden
 }
 
 #main{
@@ -26,9 +38,8 @@ body {
 .content{
     margin:auto;
     position: relative;
-    top: 15%;
+    top: 8%;
     text-align: center;
-    padding: 24px;
 }
 
 #title{
