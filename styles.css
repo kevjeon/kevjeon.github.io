@@ -1,5 +1,5 @@
 #particles-js {
-    background:darkcyan;
+    background:rgb(0, 0, 0);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body {
 }
 
 #title{
-    color: #3a9129;
+    color: #ffffff;
     font-family: 'Crete Round', serif;
     font-size: 4em;
 }
