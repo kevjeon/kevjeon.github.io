@@ -1,6 +1,13 @@
 #particles-js {
     background:darkcyan;
-    height:500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+
+    position: absolute;
+
 }
 body {
     margin: 0;
