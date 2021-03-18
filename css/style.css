@@ -10,10 +10,15 @@
 
 
    #header {
-       margin-top: 50px;
+       /* margin-top: 50px;
        margin-left: 600px;
-       margin-right: 500px;
-       margin-bottom: 70px;
+       margin-right: 400px;
+       margin-bottom: 70px; */
+     position: relative;
+     margin: auto;
+     padding-top: 50px;
+     padding-bottom: 40px;
+     width: 720px;
    }
 
    nav, #navigation, #navigation li {
@@ -39,21 +44,16 @@
    }
 
    #content {
-     /* margin-left: 600px;
-     margin-right: 600px;
-     margin-top: 40px; */
+     position: relative;
      margin: auto;
      font-size: 20px;
-     width: 800px;
+     width: 720px;
    }
 
    
    html{
      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
    }
-   
-  
-   
 
 
 #links {
