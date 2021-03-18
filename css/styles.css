@@ -59,7 +59,7 @@
    #particles-js{
      width: 100%;
      height: 100%;
-     background-color: #49afb3;
+     background-color: #107896;
      background-size: cover;
      background-position: 50% 50%;
      background-repeat: no-repeat;
@@ -71,7 +71,7 @@
      max-width: 720px;
    }
 
-   #links {
+#links {
     padding-top: 10px;
     font-size: 1.05em;
 }
@@ -84,7 +84,6 @@ a {
     color: rgb(70, 116, 247);
     font-weight: bold;
     text-decoration: none;
-    -webkit-transition: color 0.5s;
 }
 
 
