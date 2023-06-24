@@ -1,78 +1,38 @@
-  body{ 
-       background-color: #107896;
-       padding: 0;
-       margin: 0;
-       color: #fff;
-
-       font-weight: 200;
-       font-family: 'Nunito', sans-serif;
-   }
-
-
-   #header {
-     position: relative;
-     margin: auto;
-     padding-top: 50px;
-     padding-bottom: 40px;
-     width: 720px;
-   }
-
-   nav, #navigation, #navigation li {
-     display: inline;
-     margin: 0;
-     padding: 0;
-   }
-   nav {
-       display: inline-table;
-   }
-
-   #navigation {
-     display: inline;
-     margin: 0;
-     padding: 0;
-   }
-
-   #navigation li {
-     padding-right: 20px;
-   }
-
-   #content {
-     position: relative;
-     margin: auto;
-     font-size: 20px;
-     width: 720px;
-   }
-
-   
-   html{
-     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-   }
-
-
-#links {
-    padding-top: 10px;
-    font-size: 1.1em;
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
 }
 
-#links a{
-    margin: 12px;
+.my-name {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#links {
+  padding-top: 10px;
+  font-size: 1.1em;
+  margin-left: 0;
+}
+
+#links a {
+  margin-right: 12px;
 }
 
 a {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
-
-#content a{
-  text-decoration: underline;
-  text-decoration-color: #888;
-}
-
-
-
-   
